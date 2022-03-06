@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pastelerias Coconut Creación</title>
+    <style>
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        header {
+            background-color: 	#E9967A;
+            padding: 30px;
+            text-align: center;
+            font-size: 35px;
+            color: white;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <img src="./Pastelería CocoNut.png" alt="Logo Pastelerias Coconut" width="150px">
+        <h1>Arma tu pastel a tu gusto:</h1>
+    </header>
+    
+    <form action="pedido.js">
+        <label for="Nombre">¿Cual es Tu nombre?</label><br>
+        <input type="text" name="Nombre" id="Nombre" placeholder="Nombre"><br>
+
+        <label for="Telefono">¿Cual es Tu teléfono?</label><br>
+        <input type="text" name="Telefono" id="Telefono" placeholder="Telefono"><br>
+
+        <label for="Correo">¿Cual es Tu correo eletronico?</label><br>
+        <input type="text" name="correo" id="correo" placeholder="Correo"><br>
+
+        
+
+        <p>¿Te gustaría agregar 3 leches a tu pastel?</p> <br>
+        <input type="radio" id="3lechessi" name="siono" value="Sí">
+        <label for="3lechessi">Sí</label><br>
+        <input type="radio" id="3lechesno" name="siono" value="No">
+        <label for="3lechesno">No</label><br>
+
+        <p>Escoje el Tipo de Pan</p><br>
+        <input type="radio" id="Vainilla" name="TipodePan" value="Vainilla">
+        <label for="Vainilla">Pan de Vainilla</label><br>
+        <input type="radio" id="Red" name="TipodePan" value="Red Velvet">
+        <label for="Red">Pan Red Velvet</label><br>
+        <input type="radio" id="Choco" name="TipodePan" value="Chocolate">
+        <label for="Choco">Pan de Chocolate</label><br><br>
+
+
+        <p>Escoje el relleno</p><br>
+        <input type="radio" id="RDurazno" name="Relleno" value="Durazno">
+        <label for="RDurazno">Relleno de Durazno</label><br>
+        <input type="radio" id="RFresas" name="Relleno" value="Fresas">
+        <label for="RFresas">Relleno de Fresas</label><br>
+        <input type="radio" id="RNueces" name="Relleno" value="Nueces y almendras">
+        <label for="RNueces">Relleno de nueces y almendras</label><br><br>
+
+
+        <p>Escoje La cubierta</p><br>
+        <input type="radio" id="chocolate" name="cubierta" value="Chocolate">
+        <label for="Chocolate">Cubierta de Chocolate</label><br>
+        <input type="radio" id="Mfresas" name="cubierta" value="Malteada de fresa">
+        <label for="MFresas">Cubierta de Malteada de Fresas</label><br>
+        <input type="radio" id="MCremaPastelera" name="cubierta" value="Crema Pastelera">
+        <label for="MCremaPastelera">Cubierta de crema pastelera</label><br><br>
+
+        <input type="reset">
+        <input type="submit"><br><br>
+
+    </form>
+
+    
+    <a href="./PracticaPasteleria.html">
+        <input type="button" value="Regresar a la página principal">
+    </a>
+
+</body>
+</html>
+
+    
+
+    
